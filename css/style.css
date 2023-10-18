@@ -1,25 +1,185 @@
 body{
     margin: 0;
     padding: 0;
-    background: #ffffff;
-    font-family: Verdana, sans-serif;
+    background: #ffff;
+    font-family: 'roboto', sans-serif;
 }
-/* #home{
+#home{
     height: 100vh;
     width: 100vw;
-} */
+}
+#home img{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+}
 header{
     display: flex;
     justify-content: space-between;
+    padding: 20px 40px;
 }
 #nav{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    color: black;
     gap: 30px;
+    margin-right: 140px;
 }
-/* #nav a{
+#nav a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(16, 173, 173);
+}
+nav #hover{
+    color: black;
+}
+nav #hover:hover{
+    color: rgb(16, 173, 173);
+}
+/* #homeContent{
+    display: flex;
 } */
+#hometexts{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#homeContent h2{
+    display: flex;
+    color: rgb(16, 173, 173);
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 300;
+}
+#hometexts{
+    display: flex;
+    color: black;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 70px;
+}
+#hometexts h6{
+    margin: 10px 20px;
+    font-weight: 300;
+    font-size: medium;
+}
+#homeContent img{
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+}
+#patients{
+    background-color:rgb(16, 173, 173);
+    color: #ffff;
+    width: 300px;
+    height: 330px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#patients h5{
+    font-size: xx-large;
+    font-weight: 300;
+    margin-left: 50px;
+}
+#patients h6{
+    font-size: large;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+#patients select{
+    font-size: large;
+    font-weight: 300;
+    margin-left: 50px;
+    text-decoration: underline;
+    background-color: rgb(16, 173, 173);
+    color: #ffff;
+    border-color: rgb(16, 173, 173);
+}
+#doctors{
+    background-color: rgb(50, 50, 202);
+    color: #ffff;
+    margin-left: 20px;
+    width: 250px;
+    height: 330px;
+    border-radius: 10px;
+}
+#doctors h5{
+    font-size: xx-large;
+    font-weight: 300;
+    margin-left: 30px;
+}
+#doctors h6{
+    font-size: large;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+#doctors select{
+    font-size: large;
+    font-weight: 300;
+    margin-left: 30px;
+    text-decoration: underline;
+    background-color: rgb(50, 50, 202);
+    color: #ffff;
+    border-color: rgb(50, 50, 202);
+}
+#clinics{
+    background-color: rgb(1, 1, 36);
+    color: #ffff;
+    margin-left: 20px;
+    width: 300px;
+    height: 330px;
+    border-radius: 10px;
+}
+#clinics h5{
+    font-size: xx-large;
+    font-weight: 300;
+    margin-left: 50px;
+}
+#clinics h6{
+    font-size: large;
+    font-weight: 50;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+#clinics select{
+    font-size: large;
+    font-weight: 300;
+    margin-left: 50px;
+    text-decoration: underline;
+    background-color: rgb(1, 1, 36);
+    color: #ffff;
+    border-color: rgb(1, 1, 36);
+}
+#boxcontent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+#imgs{
+    display: flex;
+    color: rgb(16, 173, 173);
+    align-content: flex-start;
+    margin: 40px 70px;
+}
+#underboxcontent h6{
+    display: flex;
+    color: rgb(16, 173, 173);
+    font-size: large;
+    font-weight: 300;
+}
+#underboxcontent{
+    display: flex;
+    flex-direction: row-reverse;
+    color: rgb(16, 173, 173);
+    align-content: flex-start;
+    margin: 20px 300px;
+}
+.backgroundbox{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(204, 253, 253);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

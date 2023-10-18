@@ -1,39 +1,167 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;
+    0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Docplanner</title>
 </head>
+
 <body>
     <section id="home">
         <header>
-            <img src="res/FullLogo.png" width="500" height="80"/>
-        
+            <img src="res/FullLogo.png" width="300" height="35" />
+
             <nav>
-            <ul id="nav">
-                <li><a href="">About Us</a></li>
-                <li><a href="">Career</a></li>
-                <li><a href="">Department</a></li>
-            </ul>
+                <ul id="nav">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="" id="hover">Career</a></li>
+                    <li><a href="" id="hover">Department</a></li>
+                </ul>
             </nav>
         </header>
         <div id="homeContent">
-            <img src="res/logo.png"/>
+            <img src="res/logo.png" width="30" height="30" />
             <h2>Making the healthcare experience more human</h2>
-            <h1 id="hometexts">We want patients to find the perfect doctor and
-                book an appointment in the most easy way. 
-                The patient journey should be enjoyable, and 
-                that's why we are always next to them: to help 
-                them find the best possible care. Anytime, anywhere.</h1>
-            <h1>We also help doctors to better manage their practice 
-                and build their online reputation. With our integrated 
-                end-to-end solution, doctors are able not only to improve 
-                their online presence, but also to devote their time to what 
-                really matters: their patients.</h1>
+            <div id="hometexts">
+                <h6>We want patients to find the perfect doctor <br>and
+                    book an appointment in the most easy <br>way.
+                    The patient journey should be <br>enjoyable, and
+                    that's why we are always <br> next to them: to help
+                    them find the best <br> possible care. Anytime, anywhere.</h6>
+                <h6>We also help doctors to better manage their <br> practice
+                    and build their online reputation. With<br> our integrated
+                    end-to-end solution, doctors are <br>able not only to improve
+                    their online presence,<br> but also to devote their time to what
+                    really <br>matters: their patients.</h6>
+            </div>
         </div>
     </section>
-    
+    <main>
+        <div id="boxcontent">
+            <div id="patients">
+                <h5>For patients</h5>
+                <h6>Find a doctor, book a <br>visit and solve any <br>health-related doubt</h6>
+                <select>
+                    <option>Choose country</option>
+                    <option>Argentina</option>
+                    <option>Brazil</option>
+                    <option>Chile</option>
+                    <option>Colombia</option>
+                    <option>Czech</option>
+                    <option>Germany</option>
+                    <option>Italy</option>
+                    <option>Mexico</option>
+                    <option>Peru</option>
+                    <option>Poland</option>
+                </select>
+            </div>
+            <div id="doctors">
+                <h5>For doctors</h5>
+                <h6>Save time managing <br>visits and cut no-<br>shows by half</h6>
+                <select>
+                    <option>Choose country</option>
+                    <option>Argentina</option>
+                    <option>Brazil</option>
+                    <option>Chile</option>
+                    <option>Colombia</option>
+                    <option>Czech</option>
+                    <option>Germany</option>
+                    <option>Italy</option>
+                    <option>Mexico</option>
+                    <option>Peru</option>
+                    <option>Poland</option>
+                </select>
+            </div>
+            <div id="clinics">
+                <h5>For clinics</h5>
+                <h6>Deliver an exceptional <br> patient experience in <br> your clinic</h6>
+                <select>
+                    <option>2-20 specialists</option>
+                    <option>Argentina</option>
+                    <option>Brazil</option>
+                    <option>Chile</option>
+                    <option>Colombia</option>
+                    <option>Czech</option>
+                    <option>Germany</option>
+                    <option>Italy</option>
+                    <option>Mexico</option>
+                    <option>Peru</option>
+                    <option>Poland</option>
+                </select> <br>
+                <select>
+                    <option>more than 20 specialists</option>
+                    <option>Argentina</option>
+                    <option>Brazil</option>
+                    <option>Chile</option>
+                    <option>Colombia</option>
+                    <option>Czech</option>
+                    <option>Germany</option>
+                    <option>Italy</option>
+                    <option>Mexico</option>
+                    <option>Peru</option>
+                    <option>Poland</option>
+                </select>
+            </div>
+        </div>
+        <div id="underboxcontent">
+            <div id="imgs">
+                <div>
+                    <img id="img1" src="res/Doctoralia.png" width="80" height="15">
+                </div>
+                <div>
+                    <img id="img2" src="res/MioDottore.png" width="80" height="15">
+                </div>
+                <br>
+                <div>
+                    <img id="img3" src="res/Znamylekar.jpg" width="80" height="15">
+                </div>
+                <div>
+                    <img id="img4" src="res/znanylekarz.png" width="80" height="15">
+                </div>
+            </div>
+            <h6>We are a global<br>company<br>with local culture</h6>
+        </div>
+        <div class="backgroundbox">
+            <div id="firstHalf">
+                <h5> The world's biggest<br>
+                    healthcare platform</h5>
+                <h6>We work from 9 offices all over the world, bringing<br> Docplanner<br>
+                    Group to life in 13 countries.</h6>
+                <img src="res/logocropped.png">
+
+            </div>
+            <div id="secondHalf">
+                <div id="box1">
+                    <h5>Leader in 13 <br>countries</h5>
+                    <h6>Poland, Brazil, Mexico, Spain, Italy,<br>
+                        Germany, Turkey, Colombia, Czech<br> Republic,
+                        Portugal, Argentina, Peru and <br> Chile</h6>
+                </div>
+                <div id="box2">
+                    <h5>15,000,000 <br>appointments</h5>
+                    <h6>booked last month</h6>
+                </div>
+                <div id="box3">
+                    <h5>90,000,000 <br>patients</h5>
+                    <h6>visit our websites each month</h6>
+                </div>
+                <div id="box4">
+                    <h5>210,000 active<br>doctors</h5>
+                    <h6>trust our solutions</h6>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
 </body>
+
 </html>

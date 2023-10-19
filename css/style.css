@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: #ffff;
-    font-family: 'roboto', sans-serif;
+    font-family: Work Sans, Arial, sans-serif;
 }
 #home{
     height: 100vh;
@@ -41,6 +41,7 @@ nav #hover:hover{
 #hometexts{
     display: flex;
     flex-direction: row-reverse;
+    margin: 0px;
 }
 #homeContent h2{
     display: flex;
@@ -58,9 +59,13 @@ nav #hover:hover{
     margin: 0px 70px;
 }
 #hometexts h6{
-    margin: 10px 20px;
+    margin: 0px 20px;
     font-weight: 300;
     font-size: medium;
+}
+#boxcontent{
+    display: flex;
+    margin-top: -120px;
 }
 #homeContent img{
     display: block;
@@ -84,8 +89,9 @@ nav #hover:hover{
     font-size: large;
     font-weight: 300;
     margin-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     padding: 0px;
+    margin-top: -40px;
 }
 #patients select{
     font-size: large;
@@ -113,7 +119,8 @@ nav #hover:hover{
     font-size: large;
     font-weight: 300;
     margin-left: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
+    margin-top: -40px;
 }
 #doctors select{
     font-size: large;
@@ -141,7 +148,8 @@ nav #hover:hover{
     font-size: large;
     font-weight: 50;
     margin-left: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
+    margin-top: -40px;
 }
 #clinics select{
     font-size: large;
@@ -178,8 +186,165 @@ nav #hover:hover{
 }
 .backgroundbox{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
     background-color: rgb(204, 253, 253);
-    background-repeat: no-repeat;
-    background-size: cover;
+    gap: 20px;
+}
+#firstHalf{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+#firstHalf h5{
+    font-size: xx-large;
+    font-weight: 300;
+    color: rgb(16, 173, 173);
+}
+#firstHalf h6{
+    font-size: medium;
+    font-weight: 300;
+    color: rgb(100, 100, 100);
+}
+#firstHalf img{
+    margin-right: 3%;
+}
+#secondHalf{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+#box-grp1,
+#box-grp2
+{
+    flex-basis: 45%;
+}
+#box-grp1{
+    margin-top: 20px;
+}
+#box-grp2{
+    margin-bottom: 20px;
+}
+.box{
+    background-color: #ffff;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.box h5{
+    color: rgb(16, 173, 173);
+    text-align: center;
+    font-size: x-large;
+    font-weight: 300;
+    margin: 0;
+}
+.box h6{
+    color: rgb(100, 100, 100);
+    text-align: center;
+    font-size: x-small;
+    font-weight: 600;
+    margin: 0;
+}
+#middletext{
+    text-align: center;
+    padding-top: 7%;
+}
+#middletext h5{
+    color: rgb(16, 173, 173);
+    font-size: xx-large;
+    font-weight: 100;
+    margin: 20px;
+}
+#middletext h6{
+    color: rgb(100, 100, 100);
+    font-size: 15px;
+    font-weight: 50;
+    margin: 20px;
+    line-height: 25px;
+    margin-bottom: 150px;
+}
+.Country{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2cm;
+    justify-content: center;
+    margin: 20px;
+    padding: 0px 180px;
+    margin-bottom: 130px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+.button p{
+    color: rgb(100, 100, 100);
+}
+#button{
+    background-color: rgb(48, 142, 250);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+#button h6{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    margin: 10px auto;
+}
+#lastcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+#lastcontent h5{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(100, 100, 100);
+}
+#lastcontent h6{
+    background-color: rgb(48, 142, 250);
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    border-radius: 5px;
+    margin-bottom: 120px;
+}
+#foot h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px;
+    font-size: 11px;
+    color: rgb(100, 100, 100);
+}
+#foot h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+    font-weight: 100;
+    margin: 18px;
+    line-height: 20px;
 }

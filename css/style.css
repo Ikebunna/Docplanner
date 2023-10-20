@@ -166,16 +166,26 @@ nav #hover:hover{
     flex-wrap: nowrap;
 }
 #imgs{
-    display: flex;
+    display: grid;
     color: rgb(16, 173, 173);
-    align-content: flex-start;
-    margin: 40px 70px;
+    grid-template-columns: 100px 100px 100px;
+    row-gap: 20px;
+    column-gap: 20px;
+    width: 40%;
+}
+.img4{
+    width: 100%;
+
 }
 #underboxcontent h6{
     display: flex;
     color: rgb(16, 173, 173);
-    font-size: large;
-    font-weight: 300;
+    font-size: x-large;
+    font-weight: 100;
+    flex-basis: 40%;
+    line-height: 30px;
+    margin-right: 200px;
+    margin-bottom: 100px;
 }
 #underboxcontent{
     display: flex;
@@ -183,6 +193,7 @@ nav #hover:hover{
     color: rgb(16, 173, 173);
     align-content: flex-start;
     margin: 20px 300px;
+    justify-content: center;
 }
 .backgroundbox{
     height: 100vh;
@@ -335,7 +346,8 @@ nav #hover:hover{
     align-items: center;
     margin: 18px;
     font-size: 11px;
-    color: rgb(100, 100, 100);
+    color: rgb(116, 116, 116);
+    font-family: Roboto, Arial, sans-serif;
 }
 #foot h6{
     display: flex;
@@ -347,4 +359,14 @@ nav #hover:hover{
     font-weight: 100;
     margin: 18px;
     line-height: 20px;
+}
+#foot h5 a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(48, 142, 250);
+    margin-left: 3px;
+}
+#foot h5 a:hover{
+    color: rgb(5, 69, 143);
+    text-decoration: underline;
 }
